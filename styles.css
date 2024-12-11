@@ -1065,3 +1065,28 @@ footer {
         margin-left: 0;
     }
 } */
+
+/* Work - insta reel - Play button */
+.work-item {
+    position: relative;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-button img {
+    width: 20px;
+    height: 20px;
+}
+
